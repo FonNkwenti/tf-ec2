@@ -38,7 +38,7 @@ resource "aws_security_group" "ssh_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]  # Allow SSH access from anywhere (for testing purposes)
+    cidr_blocks = ["0.0.0.0/0"]  
   }
 }
 
